@@ -11,6 +11,10 @@ class HBNB(cmd.Cmd):
 
     prompt = "(hbnb) "
 
+    def do_quit(self, arg):
+        """ The function to exit the command line """
+        return True
+
 
 if __name__ == '__main__':
     HBNB().cmdloop()
