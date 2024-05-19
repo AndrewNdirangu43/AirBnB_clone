@@ -7,7 +7,7 @@ import cmd
 
 
 class HBNB(cmd.Cmd):
-    """ This is a class inherited by the different subclasses """
+    """ This is a class for the interpreter """
 
     prompt = "(hbnb) "
 
